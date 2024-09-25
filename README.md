@@ -1,8 +1,7 @@
 
 Challenge 1:
 
-[cirularRings.webm](https://github.com/user-attachments/assets/85137f7b-565b-476e-8e22-e302278813f0)
-
+[dotwave.webm](https://github.com/user-attachments/assets/4f946cbf-421b-40fc-ab64-585cb030c9ee)
 
 
 Challenge 2:
