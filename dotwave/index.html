@@ -1,7 +1,25 @@
-.frame
-	-for i in (1..10)
-		div class="ring ring-#{i}"
-			- dotsPerCircle = (12 + (i * 6))
-			- for j in (1..dotsPerCircle)
-				div class="dot dot-#{j}"
-					.fill
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animación de Puntos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="frame">
+  <div class="ring" style="top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(0deg);">
+    <div class="dot" style="top: 0; left: 50%; transform: translate(-50%, -100%);"></div>
+    <div class="dot" style="top: 50%; left: 100%; transform: translate(-100%, -50%);"></div>
+    <div class="dot" style="top: 100%; left: 50%; transform: translate(-50%, 0);"></div>
+    <div class="dot" style="top: 50%; left: 0; transform: translate(0, -50%);"></div>
+    <div class="dot" style="top: 25%; left: 75%; transform: translate(-75%, -25%);"></div>
+    <div class="dot" style="top: 75%; left: 75%; transform: translate(-75%, -75%);"></div>
+    <div class="dot" style="top: 75%; left: 25%; transform: translate(-25%, -75%);"></div>
+    <div class="dot" style="top: 25%; left: 25%; transform: translate(-25%, -25%);"></div>
+  </div>
+</div>
+
+</body>
+</html>

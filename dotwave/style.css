@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #1e1e1e; 
+  }
+  
+  .frame {
+	position: relative;
+	width: 300px;
+	height: 300px;
+  }
+  
+  .ring {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: transparent;
+  }
+  
+  .dot {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	background-color: #fff;
+	border-radius: 50%;
+  }
+  
+  .fill {
+	width: 8px;
+	height: 8px;
+	background: #fff;
+	border-radius: 50%;
+  }
+  
+  @keyframes pulsate {
+	0% { transform: scale(0); }
+	100% { transform: scale(1); }
+  }
+  
+  @keyframes rotate {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+  }
+  
+  @keyframes fade {
+	0% { opacity: 0.5; }
+	50% { opacity: 1; }
+	100% { opacity: 0.5; }
+  }
+  
+  .ring {
+	animation: rotate 20s linear infinite;
+  }
+  
+  .dot {
+	animation: fade 1.5s ease-in-out infinite;
+  }
+  
+  .dot:nth-child(odd) {
+	animation-delay: 0s;
+  }
+  
+  .dot:nth-child(even) {
+	animation-delay: 0.75s;
+  }
+  
