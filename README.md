@@ -1,9 +1,7 @@
 
 Challenge 1:
 
-
-![Captura desde 2024-02-05 22-27-05](https://github.com/diegofernandezmontesinos/100dayscss/assets/107031333/193b7991-69a4-411c-86ad-f785910f676b)
-
+[cirularRings.webm](https://github.com/user-attachments/assets/85137f7b-565b-476e-8e22-e302278813f0)
 
 
 
@@ -15,7 +13,7 @@ Challenge 2:
 
 Challenge 3:
 
+[waves.webm](https://github.com/user-attachments/assets/fd52f8d3-7291-43fe-855f-1c9f896b7f53)
 
-![imagen](https://github.com/diegofernandezmontesinos/100dayscss/assets/107031333/06504a46-0cc8-4aee-8c17-128b87458bd4)
 
 
